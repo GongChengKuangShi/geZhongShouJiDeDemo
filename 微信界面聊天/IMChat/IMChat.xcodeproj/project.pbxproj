@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04080D911DFE407F00EE0F9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080D901DFE407F00EE0F9A /* main.m */; };
+		04080D941DFE407F00EE0F9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080D931DFE407F00EE0F9A /* AppDelegate.m */; };
+		04080D9A1DFE407F00EE0F9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04080D981DFE407F00EE0F9A /* Main.storyboard */; };
+		04080D9C1DFE407F00EE0F9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04080D9B1DFE407F00EE0F9A /* Assets.xcassets */; };
+		04080D9F1DFE407F00EE0F9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04080D9D1DFE407F00EE0F9A /* LaunchScreen.storyboard */; };
+		04080DAA1DFE407F00EE0F9A /* IMChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080DA91DFE407F00EE0F9A /* IMChatTests.m */; };
+		04080DD31DFE40F000EE0F9A /* JMChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080DB91DFE40F000EE0F9A /* JMChatViewController.m */; };
+		04080DD71DFE40F000EE0F9A /* JMChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080DC21DFE40F000EE0F9A /* JMChatModel.m */; };
+		04080DD81DFE40F000EE0F9A /* JMChatRectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080DC41DFE40F000EE0F9A /* JMChatRectModel.m */; };
+		04080DD91DFE40F000EE0F9A /* JMUesrName.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080DC61DFE40F000EE0F9A /* JMUesrName.m */; };
+		04080DDA1DFE40F000EE0F9A /* JMChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080DC91DFE40F000EE0F9A /* JMChatCell.m */; };
+		04080DDB1DFE40F000EE0F9A /* JMChatTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080DCB1DFE40F000EE0F9A /* JMChatTableView.m */; };
+		04080DF61DFE40F800EE0F9A /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080DE21DFE40F800EE0F9A /* NSDate+Extension.m */; };
+		04080DF71DFE40F800EE0F9A /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080DE51DFE40F800EE0F9A /* NSString+Emoji.m */; };
+		04080DF81DFE40F800EE0F9A /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080DE71DFE40F800EE0F9A /* NSString+Extension.m */; };
+		04080DF91DFE40F800EE0F9A /* NSString+Reglx.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080DE91DFE40F800EE0F9A /* NSString+Reglx.m */; };
+		04080DFA1DFE40F800EE0F9A /* UIAlertController+SYQAlterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080DEC1DFE40F800EE0F9A /* UIAlertController+SYQAlterViewController.m */; };
+		04080DFB1DFE40F800EE0F9A /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080DEF1DFE40F800EE0F9A /* UIBarButtonItem+Item.m */; };
+		04080DFC1DFE40F800EE0F9A /* UIImage+JMImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080DF21DFE40F800EE0F9A /* UIImage+JMImage.m */; };
+		04080DFD1DFE40F800EE0F9A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080DF51DFE40F800EE0F9A /* UIView+Extension.m */; };
+		04080E131DFE410100EE0F9A /* emoji.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04080E001DFE410100EE0F9A /* emoji.plist */; };
+		04080E141DFE410100EE0F9A /* JMButtomTabbarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080E021DFE410100EE0F9A /* JMButtomTabbarButton.m */; };
+		04080E151DFE410100EE0F9A /* JMCustomKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080E041DFE410100EE0F9A /* JMCustomKeyBoardView.m */; };
+		04080E161DFE410100EE0F9A /* JMEmojiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080E061DFE410100EE0F9A /* JMEmojiModel.m */; };
+		04080E171DFE410100EE0F9A /* JMInputField.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080E081DFE410100EE0F9A /* JMInputField.m */; };
+		04080E181DFE410100EE0F9A /* JMInputHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080E0A1DFE410100EE0F9A /* JMInputHeader.m */; };
+		04080E191DFE410100EE0F9A /* JMListEmojiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080E0C1DFE410100EE0F9A /* JMListEmojiView.m */; };
+		04080E1A1DFE410100EE0F9A /* JMMoreInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080E0E1DFE410100EE0F9A /* JMMoreInputView.m */; };
+		04080E1B1DFE410100EE0F9A /* JMShowEmojiPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080E101DFE410100EE0F9A /* JMShowEmojiPageView.m */; };
+		04080E1C1DFE410100EE0F9A /* tabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080E121DFE410100EE0F9A /* tabBarButton.m */; };
+		04080E1F1DFE418F00EE0F9A /* JMModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080E1E1DFE418F00EE0F9A /* JMModalViewController.m */; };
+		04080E371DFE41FC00EE0F9A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04080E211DFE41FC00EE0F9A /* Info.plist */; };
+		04080E381DFE41FC00EE0F9A /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080E241DFE41FC00EE0F9A /* MJExtensionConst.m */; };
+		04080E391DFE41FC00EE0F9A /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080E261DFE41FC00EE0F9A /* MJFoundation.m */; };
+		04080E3A1DFE41FC00EE0F9A /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080E281DFE41FC00EE0F9A /* MJProperty.m */; };
+		04080E3B1DFE41FC00EE0F9A /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080E2A1DFE41FC00EE0F9A /* MJPropertyKey.m */; };
+		04080E3C1DFE41FC00EE0F9A /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080E2C1DFE41FC00EE0F9A /* MJPropertyType.m */; };
+		04080E3D1DFE41FC00EE0F9A /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080E2E1DFE41FC00EE0F9A /* NSObject+MJClass.m */; };
+		04080E3E1DFE41FC00EE0F9A /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080E301DFE41FC00EE0F9A /* NSObject+MJCoding.m */; };
+		04080E3F1DFE41FC00EE0F9A /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080E321DFE41FC00EE0F9A /* NSObject+MJKeyValue.m */; };
+		04080E401DFE41FC00EE0F9A /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080E341DFE41FC00EE0F9A /* NSObject+MJProperty.m */; };
+		04080E411DFE41FC00EE0F9A /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080E361DFE41FC00EE0F9A /* NSString+MJExtension.m */; };
+		04080E441DFE421B00EE0F9A /* JMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080E431DFE421B00EE0F9A /* JMBaseViewController.m */; };
+		04080E481DFE46C200EE0F9A /* JMButtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080E471DFE46C200EE0F9A /* JMButtom.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04080DA61DFE407F00EE0F9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04080D841DFE407F00EE0F9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04080D8B1DFE407F00EE0F9A;
+			remoteInfo = IMChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04080D8C1DFE407F00EE0F9A /* IMChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04080D901DFE407F00EE0F9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04080D921DFE407F00EE0F9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04080D931DFE407F00EE0F9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04080D991DFE407F00EE0F9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04080D9B1DFE407F00EE0F9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04080D9E1DFE407F00EE0F9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04080DA01DFE407F00EE0F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04080DA51DFE407F00EE0F9A /* IMChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04080DA91DFE407F00EE0F9A /* IMChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMChatTests.m; sourceTree = "<group>"; };
+		04080DAB1DFE407F00EE0F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04080DB81DFE40F000EE0F9A /* JMChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMChatViewController.h; sourceTree = "<group>"; };
+		04080DB91DFE40F000EE0F9A /* JMChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMChatViewController.m; sourceTree = "<group>"; };
+		04080DC11DFE40F000EE0F9A /* JMChatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMChatModel.h; sourceTree = "<group>"; };
+		04080DC21DFE40F000EE0F9A /* JMChatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMChatModel.m; sourceTree = "<group>"; };
+		04080DC31DFE40F000EE0F9A /* JMChatRectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMChatRectModel.h; sourceTree = "<group>"; };
+		04080DC41DFE40F000EE0F9A /* JMChatRectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMChatRectModel.m; sourceTree = "<group>"; };
+		04080DC51DFE40F000EE0F9A /* JMUesrName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMUesrName.h; sourceTree = "<group>"; };
+		04080DC61DFE40F000EE0F9A /* JMUesrName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMUesrName.m; sourceTree = "<group>"; };
+		04080DC81DFE40F000EE0F9A /* JMChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMChatCell.h; sourceTree = "<group>"; };
+		04080DC91DFE40F000EE0F9A /* JMChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMChatCell.m; sourceTree = "<group>"; };
+		04080DCA1DFE40F000EE0F9A /* JMChatTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMChatTableView.h; sourceTree = "<group>"; };
+		04080DCB1DFE40F000EE0F9A /* JMChatTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMChatTableView.m; sourceTree = "<group>"; };
+		04080DE11DFE40F800EE0F9A /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		04080DE21DFE40F800EE0F9A /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		04080DE41DFE40F800EE0F9A /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
+		04080DE51DFE40F800EE0F9A /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
+		04080DE61DFE40F800EE0F9A /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		04080DE71DFE40F800EE0F9A /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		04080DE81DFE40F800EE0F9A /* NSString+Reglx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Reglx.h"; sourceTree = "<group>"; };
+		04080DE91DFE40F800EE0F9A /* NSString+Reglx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Reglx.m"; sourceTree = "<group>"; };
+		04080DEB1DFE40F800EE0F9A /* UIAlertController+SYQAlterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+SYQAlterViewController.h"; sourceTree = "<group>"; };
+		04080DEC1DFE40F800EE0F9A /* UIAlertController+SYQAlterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+SYQAlterViewController.m"; sourceTree = "<group>"; };
+		04080DEE1DFE40F800EE0F9A /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
+		04080DEF1DFE40F800EE0F9A /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
+		04080DF11DFE40F800EE0F9A /* UIImage+JMImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JMImage.h"; sourceTree = "<group>"; };
+		04080DF21DFE40F800EE0F9A /* UIImage+JMImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JMImage.m"; sourceTree = "<group>"; };
+		04080DF41DFE40F800EE0F9A /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		04080DF51DFE40F800EE0F9A /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		04080E001DFE410100EE0F9A /* emoji.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emoji.plist; sourceTree = "<group>"; };
+		04080E011DFE410100EE0F9A /* JMButtomTabbarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMButtomTabbarButton.h; sourceTree = "<group>"; };
+		04080E021DFE410100EE0F9A /* JMButtomTabbarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMButtomTabbarButton.m; sourceTree = "<group>"; };
+		04080E031DFE410100EE0F9A /* JMCustomKeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMCustomKeyBoardView.h; sourceTree = "<group>"; };
+		04080E041DFE410100EE0F9A /* JMCustomKeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMCustomKeyBoardView.m; sourceTree = "<group>"; };
+		04080E051DFE410100EE0F9A /* JMEmojiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMEmojiModel.h; sourceTree = "<group>"; };
+		04080E061DFE410100EE0F9A /* JMEmojiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMEmojiModel.m; sourceTree = "<group>"; };
+		04080E071DFE410100EE0F9A /* JMInputField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMInputField.h; sourceTree = "<group>"; };
+		04080E081DFE410100EE0F9A /* JMInputField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMInputField.m; sourceTree = "<group>"; };
+		04080E091DFE410100EE0F9A /* JMInputHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMInputHeader.h; sourceTree = "<group>"; };
+		04080E0A1DFE410100EE0F9A /* JMInputHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMInputHeader.m; sourceTree = "<group>"; };
+		04080E0B1DFE410100EE0F9A /* JMListEmojiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMListEmojiView.h; sourceTree = "<group>"; };
+		04080E0C1DFE410100EE0F9A /* JMListEmojiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMListEmojiView.m; sourceTree = "<group>"; };
+		04080E0D1DFE410100EE0F9A /* JMMoreInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMMoreInputView.h; sourceTree = "<group>"; };
+		04080E0E1DFE410100EE0F9A /* JMMoreInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMMoreInputView.m; sourceTree = "<group>"; };
+		04080E0F1DFE410100EE0F9A /* JMShowEmojiPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMShowEmojiPageView.h; sourceTree = "<group>"; };
+		04080E101DFE410100EE0F9A /* JMShowEmojiPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMShowEmojiPageView.m; sourceTree = "<group>"; };
+		04080E111DFE410100EE0F9A /* tabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tabBarButton.h; sourceTree = "<group>"; };
+		04080E121DFE410100EE0F9A /* tabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tabBarButton.m; sourceTree = "<group>"; };
+		04080E1D1DFE418F00EE0F9A /* JMModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMModalViewController.h; sourceTree = "<group>"; };
+		04080E1E1DFE418F00EE0F9A /* JMModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMModalViewController.m; sourceTree = "<group>"; };
+		04080E211DFE41FC00EE0F9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04080E221DFE41FC00EE0F9A /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		04080E231DFE41FC00EE0F9A /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		04080E241DFE41FC00EE0F9A /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		04080E251DFE41FC00EE0F9A /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		04080E261DFE41FC00EE0F9A /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		04080E271DFE41FC00EE0F9A /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		04080E281DFE41FC00EE0F9A /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		04080E291DFE41FC00EE0F9A /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		04080E2A1DFE41FC00EE0F9A /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		04080E2B1DFE41FC00EE0F9A /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		04080E2C1DFE41FC00EE0F9A /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		04080E2D1DFE41FC00EE0F9A /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		04080E2E1DFE41FC00EE0F9A /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		04080E2F1DFE41FC00EE0F9A /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		04080E301DFE41FC00EE0F9A /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		04080E311DFE41FC00EE0F9A /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		04080E321DFE41FC00EE0F9A /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		04080E331DFE41FC00EE0F9A /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		04080E341DFE41FC00EE0F9A /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		04080E351DFE41FC00EE0F9A /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		04080E361DFE41FC00EE0F9A /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		04080E421DFE421B00EE0F9A /* JMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBaseViewController.h; sourceTree = "<group>"; };
+		04080E431DFE421B00EE0F9A /* JMBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMBaseViewController.m; sourceTree = "<group>"; };
+		04080E451DFE439E00EE0F9A /* IMChat.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMChat.pch; sourceTree = "<group>"; };
+		04080E461DFE46C200EE0F9A /* JMButtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMButtom.h; sourceTree = "<group>"; };
+		04080E471DFE46C200EE0F9A /* JMButtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMButtom.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04080D891DFE407F00EE0F9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04080DA21DFE407F00EE0F9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04080D831DFE407F00EE0F9A = {
+			isa = PBXGroup;
+			children = (
+				04080D8E1DFE407F00EE0F9A /* IMChat */,
+				04080DA81DFE407F00EE0F9A /* IMChatTests */,
+				04080D8D1DFE407F00EE0F9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04080D8D1DFE407F00EE0F9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04080D8C1DFE407F00EE0F9A /* IMChat.app */,
+				04080DA51DFE407F00EE0F9A /* IMChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04080D8E1DFE407F00EE0F9A /* IMChat */ = {
+			isa = PBXGroup;
+			children = (
+				04080D921DFE407F00EE0F9A /* AppDelegate.h */,
+				04080D931DFE407F00EE0F9A /* AppDelegate.m */,
+				04080E421DFE421B00EE0F9A /* JMBaseViewController.h */,
+				04080E431DFE421B00EE0F9A /* JMBaseViewController.m */,
+				04080E1D1DFE418F00EE0F9A /* JMModalViewController.h */,
+				04080E1E1DFE418F00EE0F9A /* JMModalViewController.m */,
+				04080E461DFE46C200EE0F9A /* JMButtom.h */,
+				04080E471DFE46C200EE0F9A /* JMButtom.m */,
+				04080E201DFE41FC00EE0F9A /* MJExtension */,
+				04080DFE1DFE410100EE0F9A /* JMCustomKeyBoard */,
+				04080DDF1DFE40F800EE0F9A /* Category */,
+				04080DB41DFE40F000EE0F9A /* Chat */,
+				04080D981DFE407F00EE0F9A /* Main.storyboard */,
+				04080D9B1DFE407F00EE0F9A /* Assets.xcassets */,
+				04080D9D1DFE407F00EE0F9A /* LaunchScreen.storyboard */,
+				04080DA01DFE407F00EE0F9A /* Info.plist */,
+				04080D8F1DFE407F00EE0F9A /* Supporting Files */,
+			);
+			path = IMChat;
+			sourceTree = "<group>";
+		};
+		04080D8F1DFE407F00EE0F9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04080D901DFE407F00EE0F9A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04080DA81DFE407F00EE0F9A /* IMChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				04080DA91DFE407F00EE0F9A /* IMChatTests.m */,
+				04080DAB1DFE407F00EE0F9A /* Info.plist */,
+			);
+			path = IMChatTests;
+			sourceTree = "<group>";
+		};
+		04080DB41DFE40F000EE0F9A /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				04080DB51DFE40F000EE0F9A /* Controller */,
+				04080DC01DFE40F000EE0F9A /* Model */,
+				04080DC71DFE40F000EE0F9A /* View */,
+				04080E451DFE439E00EE0F9A /* IMChat.pch */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		04080DB51DFE40F000EE0F9A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04080DB81DFE40F000EE0F9A /* JMChatViewController.h */,
+				04080DB91DFE40F000EE0F9A /* JMChatViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04080DC01DFE40F000EE0F9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04080DC11DFE40F000EE0F9A /* JMChatModel.h */,
+				04080DC21DFE40F000EE0F9A /* JMChatModel.m */,
+				04080DC31DFE40F000EE0F9A /* JMChatRectModel.h */,
+				04080DC41DFE40F000EE0F9A /* JMChatRectModel.m */,
+				04080DC51DFE40F000EE0F9A /* JMUesrName.h */,
+				04080DC61DFE40F000EE0F9A /* JMUesrName.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04080DC71DFE40F000EE0F9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04080DC81DFE40F000EE0F9A /* JMChatCell.h */,
+				04080DC91DFE40F000EE0F9A /* JMChatCell.m */,
+				04080DCA1DFE40F000EE0F9A /* JMChatTableView.h */,
+				04080DCB1DFE40F000EE0F9A /* JMChatTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04080DDF1DFE40F800EE0F9A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				04080DE01DFE40F800EE0F9A /* NSDate */,
+				04080DE31DFE40F800EE0F9A /* NSString */,
+				04080DEA1DFE40F800EE0F9A /* UIAlertController */,
+				04080DED1DFE40F800EE0F9A /* UIButton */,
+				04080DF01DFE40F800EE0F9A /* UIImage */,
+				04080DF31DFE40F800EE0F9A /* UIView */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		04080DE01DFE40F800EE0F9A /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				04080DE11DFE40F800EE0F9A /* NSDate+Extension.h */,
+				04080DE21DFE40F800EE0F9A /* NSDate+Extension.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		04080DE31DFE40F800EE0F9A /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				04080DE41DFE40F800EE0F9A /* NSString+Emoji.h */,
+				04080DE51DFE40F800EE0F9A /* NSString+Emoji.m */,
+				04080DE61DFE40F800EE0F9A /* NSString+Extension.h */,
+				04080DE71DFE40F800EE0F9A /* NSString+Extension.m */,
+				04080DE81DFE40F800EE0F9A /* NSString+Reglx.h */,
+				04080DE91DFE40F800EE0F9A /* NSString+Reglx.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		04080DEA1DFE40F800EE0F9A /* UIAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				04080DEB1DFE40F800EE0F9A /* UIAlertController+SYQAlterViewController.h */,
+				04080DEC1DFE40F800EE0F9A /* UIAlertController+SYQAlterViewController.m */,
+			);
+			path = UIAlertController;
+			sourceTree = "<group>";
+		};
+		04080DED1DFE40F800EE0F9A /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				04080DEE1DFE40F800EE0F9A /* UIBarButtonItem+Item.h */,
+				04080DEF1DFE40F800EE0F9A /* UIBarButtonItem+Item.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		04080DF01DFE40F800EE0F9A /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				04080DF11DFE40F800EE0F9A /* UIImage+JMImage.h */,
+				04080DF21DFE40F800EE0F9A /* UIImage+JMImage.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		04080DF31DFE40F800EE0F9A /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				04080DF41DFE40F800EE0F9A /* UIView+Extension.h */,
+				04080DF51DFE40F800EE0F9A /* UIView+Extension.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		04080DFE1DFE410100EE0F9A /* JMCustomKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				04080DFF1DFE410100EE0F9A /* JMKeyBoard */,
+			);
+			path = JMCustomKeyBoard;
+			sourceTree = "<group>";
+		};
+		04080DFF1DFE410100EE0F9A /* JMKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				04080E001DFE410100EE0F9A /* emoji.plist */,
+				04080E011DFE410100EE0F9A /* JMButtomTabbarButton.h */,
+				04080E021DFE410100EE0F9A /* JMButtomTabbarButton.m */,
+				04080E031DFE410100EE0F9A /* JMCustomKeyBoardView.h */,
+				04080E041DFE410100EE0F9A /* JMCustomKeyBoardView.m */,
+				04080E051DFE410100EE0F9A /* JMEmojiModel.h */,
+				04080E061DFE410100EE0F9A /* JMEmojiModel.m */,
+				04080E071DFE410100EE0F9A /* JMInputField.h */,
+				04080E081DFE410100EE0F9A /* JMInputField.m */,
+				04080E091DFE410100EE0F9A /* JMInputHeader.h */,
+				04080E0A1DFE410100EE0F9A /* JMInputHeader.m */,
+				04080E0B1DFE410100EE0F9A /* JMListEmojiView.h */,
+				04080E0C1DFE410100EE0F9A /* JMListEmojiView.m */,
+				04080E0D1DFE410100EE0F9A /* JMMoreInputView.h */,
+				04080E0E1DFE410100EE0F9A /* JMMoreInputView.m */,
+				04080E0F1DFE410100EE0F9A /* JMShowEmojiPageView.h */,
+				04080E101DFE410100EE0F9A /* JMShowEmojiPageView.m */,
+				04080E111DFE410100EE0F9A /* tabBarButton.h */,
+				04080E121DFE410100EE0F9A /* tabBarButton.m */,
+			);
+			path = JMKeyBoard;
+			sourceTree = "<group>";
+		};
+		04080E201DFE41FC00EE0F9A /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				04080E211DFE41FC00EE0F9A /* Info.plist */,
+				04080E221DFE41FC00EE0F9A /* MJExtension.h */,
+				04080E231DFE41FC00EE0F9A /* MJExtensionConst.h */,
+				04080E241DFE41FC00EE0F9A /* MJExtensionConst.m */,
+				04080E251DFE41FC00EE0F9A /* MJFoundation.h */,
+				04080E261DFE41FC00EE0F9A /* MJFoundation.m */,
+				04080E271DFE41FC00EE0F9A /* MJProperty.h */,
+				04080E281DFE41FC00EE0F9A /* MJProperty.m */,
+				04080E291DFE41FC00EE0F9A /* MJPropertyKey.h */,
+				04080E2A1DFE41FC00EE0F9A /* MJPropertyKey.m */,
+				04080E2B1DFE41FC00EE0F9A /* MJPropertyType.h */,
+				04080E2C1DFE41FC00EE0F9A /* MJPropertyType.m */,
+				04080E2D1DFE41FC00EE0F9A /* NSObject+MJClass.h */,
+				04080E2E1DFE41FC00EE0F9A /* NSObject+MJClass.m */,
+				04080E2F1DFE41FC00EE0F9A /* NSObject+MJCoding.h */,
+				04080E301DFE41FC00EE0F9A /* NSObject+MJCoding.m */,
+				04080E311DFE41FC00EE0F9A /* NSObject+MJKeyValue.h */,
+				04080E321DFE41FC00EE0F9A /* NSObject+MJKeyValue.m */,
+				04080E331DFE41FC00EE0F9A /* NSObject+MJProperty.h */,
+				04080E341DFE41FC00EE0F9A /* NSObject+MJProperty.m */,
+				04080E351DFE41FC00EE0F9A /* NSString+MJExtension.h */,
+				04080E361DFE41FC00EE0F9A /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04080D8B1DFE407F00EE0F9A /* IMChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04080DAE1DFE407F00EE0F9A /* Build configuration list for PBXNativeTarget "IMChat" */;
+			buildPhases = (
+				04080D881DFE407F00EE0F9A /* Sources */,
+				04080D891DFE407F00EE0F9A /* Frameworks */,
+				04080D8A1DFE407F00EE0F9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMChat;
+			productName = IMChat;
+			productReference = 04080D8C1DFE407F00EE0F9A /* IMChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04080DA41DFE407F00EE0F9A /* IMChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04080DB11DFE407F00EE0F9A /* Build configuration list for PBXNativeTarget "IMChatTests" */;
+			buildPhases = (
+				04080DA11DFE407F00EE0F9A /* Sources */,
+				04080DA21DFE407F00EE0F9A /* Frameworks */,
+				04080DA31DFE407F00EE0F9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04080DA71DFE407F00EE0F9A /* PBXTargetDependency */,
+			);
+			name = IMChatTests;
+			productName = IMChatTests;
+			productReference = 04080DA51DFE407F00EE0F9A /* IMChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04080D841DFE407F00EE0F9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = yijia;
+				TargetAttributes = {
+					04080D8B1DFE407F00EE0F9A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					04080DA41DFE407F00EE0F9A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04080D8B1DFE407F00EE0F9A;
+					};
+				};
+			};
+			buildConfigurationList = 04080D871DFE407F00EE0F9A /* Build configuration list for PBXProject "IMChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04080D831DFE407F00EE0F9A;
+			productRefGroup = 04080D8D1DFE407F00EE0F9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04080D8B1DFE407F00EE0F9A /* IMChat */,
+				04080DA41DFE407F00EE0F9A /* IMChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04080D8A1DFE407F00EE0F9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04080D9F1DFE407F00EE0F9A /* LaunchScreen.storyboard in Resources */,
+				04080E131DFE410100EE0F9A /* emoji.plist in Resources */,
+				04080D9C1DFE407F00EE0F9A /* Assets.xcassets in Resources */,
+				04080E371DFE41FC00EE0F9A /* Info.plist in Resources */,
+				04080D9A1DFE407F00EE0F9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04080DA31DFE407F00EE0F9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04080D881DFE407F00EE0F9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04080E3E1DFE41FC00EE0F9A /* NSObject+MJCoding.m in Sources */,
+				04080E1C1DFE410100EE0F9A /* tabBarButton.m in Sources */,
+				04080DF71DFE40F800EE0F9A /* NSString+Emoji.m in Sources */,
+				04080E3F1DFE41FC00EE0F9A /* NSObject+MJKeyValue.m in Sources */,
+				04080E151DFE410100EE0F9A /* JMCustomKeyBoardView.m in Sources */,
+				04080DD31DFE40F000EE0F9A /* JMChatViewController.m in Sources */,
+				04080E411DFE41FC00EE0F9A /* NSString+MJExtension.m in Sources */,
+				04080DDB1DFE40F000EE0F9A /* JMChatTableView.m in Sources */,
+				04080DD91DFE40F000EE0F9A /* JMUesrName.m in Sources */,
+				04080E3D1DFE41FC00EE0F9A /* NSObject+MJClass.m in Sources */,
+				04080E1A1DFE410100EE0F9A /* JMMoreInputView.m in Sources */,
+				04080D941DFE407F00EE0F9A /* AppDelegate.m in Sources */,
+				04080E3C1DFE41FC00EE0F9A /* MJPropertyType.m in Sources */,
+				04080E441DFE421B00EE0F9A /* JMBaseViewController.m in Sources */,
+				04080E161DFE410100EE0F9A /* JMEmojiModel.m in Sources */,
+				04080E3B1DFE41FC00EE0F9A /* MJPropertyKey.m in Sources */,
+				04080E1F1DFE418F00EE0F9A /* JMModalViewController.m in Sources */,
+				04080DFD1DFE40F800EE0F9A /* UIView+Extension.m in Sources */,
+				04080DF81DFE40F800EE0F9A /* NSString+Extension.m in Sources */,
+				04080E3A1DFE41FC00EE0F9A /* MJProperty.m in Sources */,
+				04080E401DFE41FC00EE0F9A /* NSObject+MJProperty.m in Sources */,
+				04080DFB1DFE40F800EE0F9A /* UIBarButtonItem+Item.m in Sources */,
+				04080E141DFE410100EE0F9A /* JMButtomTabbarButton.m in Sources */,
+				04080E191DFE410100EE0F9A /* JMListEmojiView.m in Sources */,
+				04080E381DFE41FC00EE0F9A /* MJExtensionConst.m in Sources */,
+				04080D911DFE407F00EE0F9A /* main.m in Sources */,
+				04080DD71DFE40F000EE0F9A /* JMChatModel.m in Sources */,
+				04080E171DFE410100EE0F9A /* JMInputField.m in Sources */,
+				04080E481DFE46C200EE0F9A /* JMButtom.m in Sources */,
+				04080E181DFE410100EE0F9A /* JMInputHeader.m in Sources */,
+				04080E1B1DFE410100EE0F9A /* JMShowEmojiPageView.m in Sources */,
+				04080DD81DFE40F000EE0F9A /* JMChatRectModel.m in Sources */,
+				04080DF91DFE40F800EE0F9A /* NSString+Reglx.m in Sources */,
+				04080DFC1DFE40F800EE0F9A /* UIImage+JMImage.m in Sources */,
+				04080E391DFE41FC00EE0F9A /* MJFoundation.m in Sources */,
+				04080DF61DFE40F800EE0F9A /* NSDate+Extension.m in Sources */,
+				04080DFA1DFE40F800EE0F9A /* UIAlertController+SYQAlterViewController.m in Sources */,
+				04080DDA1DFE40F000EE0F9A /* JMChatCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04080DA11DFE407F00EE0F9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04080DAA1DFE407F00EE0F9A /* IMChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04080DA71DFE407F00EE0F9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04080D8B1DFE407F00EE0F9A /* IMChat */;
+			targetProxy = 04080DA61DFE407F00EE0F9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04080D981DFE407F00EE0F9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04080D991DFE407F00EE0F9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04080D9D1DFE407F00EE0F9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04080D9E1DFE407F00EE0F9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04080DAC1DFE407F00EE0F9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04080DAD1DFE407F00EE0F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04080DAF1DFE407F00EE0F9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IMChat/Chat/IMChat.pch;
+				INFOPLIST_FILE = IMChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oneplus.IMChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04080DB01DFE407F00EE0F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IMChat/Chat/IMChat.pch;
+				INFOPLIST_FILE = IMChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oneplus.IMChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04080DB21DFE407F00EE0F9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IMChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oneplus.IMChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMChat.app/IMChat";
+			};
+			name = Debug;
+		};
+		04080DB31DFE407F00EE0F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IMChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oneplus.IMChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMChat.app/IMChat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04080D871DFE407F00EE0F9A /* Build configuration list for PBXProject "IMChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04080DAC1DFE407F00EE0F9A /* Debug */,
+				04080DAD1DFE407F00EE0F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04080DAE1DFE407F00EE0F9A /* Build configuration list for PBXNativeTarget "IMChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04080DAF1DFE407F00EE0F9A /* Debug */,
+				04080DB01DFE407F00EE0F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04080DB11DFE407F00EE0F9A /* Build configuration list for PBXNativeTarget "IMChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04080DB21DFE407F00EE0F9A /* Debug */,
+				04080DB31DFE407F00EE0F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04080D841DFE407F00EE0F9A /* Project object */;
+}

@@ -1,0 +1,7 @@
+dependencies: \
+  /Users/apple/Downloads/FenghuangFM-master/Pods/YYCache/YYCache/YYCache.m \
+  /Users/apple/Downloads/FenghuangFM-master/Pods/Target\ Support\ Files/YYCache/YYCache-prefix.pch \
+  /Users/apple/Downloads/FenghuangFM-master/Pods/YYCache/YYCache/YYCache.h \
+  /Users/apple/Downloads/FenghuangFM-master/Pods/YYCache/YYCache/YYMemoryCache.h \
+  /Users/apple/Downloads/FenghuangFM-master/Pods/YYCache/YYCache/YYDiskCache.h \
+  /Users/apple/Downloads/FenghuangFM-master/Pods/YYCache/YYCache/YYKVStorage.h
